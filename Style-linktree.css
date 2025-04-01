@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(208, 166, 245);
+    justify-content: center;
+    display: flex;
+    border-radius: 500px;
+    padding: auto;
+    margin: 80px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: azure;
+}
+p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    background-color: rgb(185, 126, 212);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2px;
+    background-color: aliceblue;
+    margin-right: 450px;
+    margin-left: 450px;
+    box-shadow: 0 2px 5px white,
+    -2px -2px 10px;
+}
+
+.enlace{
+    background-color: rgb(161, 109, 209);
+    text-decoration: white;
+    color: aliceblue;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+}
+.enlace:hover{
+    transform: scale(1.03);
+    background-color: rgb(133, 101, 163);
+}
+img{
+    border-radius: 150px;
+    background-color: rgb(161, 109, 209);
+}
+.art{
+    border-radius: 30px;
+    background-color: rgb(61, 87, 102);
+    width: 130px;
+    height: 150px;
+    box-shadow: 0 2px 5px white,
+           -2px -2px 10px;
+}
+.art:hover{
+    transform: scale(1.03);
+    background-color: rgb(54, 69, 82);
+}
+.galeria{
+    border-radius: 30px;
+    flex-direction: row-reverse;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px white,
+    -2px -2px 10px;
+}
+.lila{
+    border-radius: 20px;
+}
+.lila:hover{
+    transform: scale(1.04);
+}
+@media (max-width:300px){
+    body{background-color: aliceblue;}
+}
+.flor{
+    border-radius: 200px;
+}
+.flor:hover{
+    transform: scale(1.04);
+}
+.Catalan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-style: italic;
+}
